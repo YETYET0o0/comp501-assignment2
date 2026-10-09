@@ -1,32 +1,89 @@
-  body {
-   padding-left: 11em;
-   font-family: Georgia, "Times New Roman",
-          Times, serif;
-		  color: purple;
-    background-color: #d8da3d }
-	 ul.navbar {
+body {
+    padding-left: 13em;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #333333;
+    background-color: #f5f7fa;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Navigation menu */
+ul.navbar {
     list-style-type: none;
     padding: 0;
     margin: 0;
-	position: absolute;
+    position: absolute;
     top: 2em;
     left: 1em;
-    width: 10em }
-	h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
-		ul.navbar li {
+    width: 11em;
+}
+
+ul.navbar li {
     background: white;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black }
-  ul.navbar a {
-    text-decoration: none }
-  a:link {
-    color: blue }
-  a:visited {
-    color: purple }
-	address {
-    margin-top: 1em;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    border-right: 4px solid #2563eb;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+ul.navbar li:hover {
+    background-color: #eef4ff;
+}
+
+/* Navigation links */
+ul.navbar a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
+}
+
+/* Main heading */
+h1 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #1e3a8a;
+    border-bottom: 3px solid #2563eb;
+    padding-bottom: 10px;
+}
+
+/* Subheadings */
+h2, h3, h4 {
+    color: #374151;
+}
+
+/* Links */
+a:link {
+    color: #2563eb;
+}
+
+a:visited {
+    color: #7c3aed;
+}
+
+a:hover {
+    color: #1d4ed8;
+}
+
+/* Author information */
+address {
+    margin-top: 2em;
     padding-top: 1em;
-    border-top: thin dotted }
+    border-top: 1px solid #cccccc;
+    color: #666666;
+    font-style: italic;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Content boxes */
+.choice-box {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
